@@ -1,0 +1,142 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #dcacfe;
+}
+.wrapper{
+    width:350px;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    padding:30px;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    box-shadow: 20px 30px 10px rgba(0,0,0,0.5);
+}
+.container{
+    width: 100%;
+    height:360px;
+    position:relative;
+}
+.bowl{
+    width:230px;
+    height:90px;
+    background-color: #d9f0fe;
+    position:absolute;
+    margin:auto;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    border-radius:0 0 150px 150px;
+}
+
+.bowl:before{
+    content:"";
+    position: absolute;
+    height:20px;
+    width:110%;
+    background-color: #afddfa;
+    left:-5%;
+    border-radius: 20px;
+
+}
+.base{
+    width:20px;
+    height:40px;
+    background-color: #afddfa;
+    margin:auto;
+    left:0px;
+    right:0px;
+    top:90px;
+    position: absolute;
+
+}
+.base:after{
+    content:"";
+    position: absolute;
+    height:40px;
+    width:120px;
+    background-color: #d9f0fe;
+    left:-50px;
+    top:30px;
+    border-radius: 50px 50px  0 0;
+
+}
+.scoop1{
+    width:130px;
+    height:130px;
+    background-color: #f45c96;
+    border-radius: 50%;
+    position: absolute;
+    background-size:40px 150px;
+    background-image: radial-gradient(
+        circle at 20px 12px ,
+        #f83de9c8 30px,
+        transparent 25px
+    );
+    top:2px;
+    left:105px;
+
+}
+.scoop2{
+     width:130px;
+    height:130px;
+    background-color: #5cf494;
+    border-radius: 50%;
+    position: absolute;
+    background-size:40px 150px;
+    background-image: radial-gradient(
+        circle at 20px 12px ,
+        #3dd6f8 30px,
+        transparent 25px
+    );
+    top:50px;
+    right:50px;
+
+}
+.scoop3{
+    width:130px;
+    height:130px;
+    background-color: #5ca5f4;
+    border-radius: 50%;
+    position: absolute;
+    background-size:40px 150px;
+    background-image: radial-gradient(
+        circle at 20px 12px ,
+        #c33df8 30px,
+        transparent 25px
+    );
+    top:50px;
+    left:50px;
+
+}
+.btns{
+    width:90%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:15px;
+    border-top:2px dashed black;
+    
+   
+    
+    
+}
+.btns button{
+    width: 150px;
+    padding: 15px;
+    border-radius:50px ;
+    margin-top: 30px;
+    border: none;
+    background-color: #b90edc87;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    
+    
+    
+    
+}
